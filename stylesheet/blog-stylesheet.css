@@ -5,8 +5,8 @@
 #sociallinks img {
   float: right;
   border: 1px solid black;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   display: inline-block;
 }
 
@@ -57,6 +57,7 @@
 #content {
 	padding-top: 100px;
 	vertical-align: text-top;
+  background-color: #28BF93;
 }
 #footer {
 	border-top: 2px solid black;
