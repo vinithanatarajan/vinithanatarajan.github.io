@@ -28,7 +28,8 @@
                 <ul id="Blogs">
                   <li><a href="t1-git-blog.html">Technical Blog</a></li>
                   <li><a href="c1-chefs-kitchen.html">Cultural Blog</a></li>
-              </ul>
+                </ul>
+              
                 <li>Week 2</li>
                 <ul id="Blogs">
                  <li><a href="t2-css-design.html">Technical Blog</a></li>
@@ -52,17 +53,39 @@
             </ul>
         </td>
         <td id="content">
-          <h2>Chefs in the kitchen</h2>
-          <p>Hello Everyone, I am very glad to say that I am a student at EDA. I am also happy to be a member of Pukeko community where I get connected to all the amazing people who have the same interests as me and can help with my future career.</p> 
+          <h2> Inline vs Inline blocks </h2>
+          <ul id="Blogs">
+            <li>Inline elements:</li>
 
-<p>EDA is embedded with excellent teachers' teaching and supervision practices which systematically supports learning in students. After watching Shereef's fireside chat I realised that I was completely in a consumer mode with a Restaurant mindset. But after going through week 1 learning material, it encouraged me to independently search for information, analyse and apply it in novel ways, as well as to generate new information.</p>
-<p>Now I believe that I am slowly moving towards the creator mode with a kitchen mind set. I am confident that this mindset will last in me for life time.</p>
+<ul>
+<li>It has left & right margins and padding, but not top & bottom.</li>
+<li>It cannot have a width and height set.</li>
+<li>It allows other elements to sit to their left and right.</li>
 
-<p>EDA provides with both learning and teaching experience and also provides students with constructive feedback with their learning and skills. EDA programs were exactly what I was looking for. And of course, thanks to EDA, finally I get to meet you.</p>
+<p>An inline element has no line break before or after it.</p>
+</ul>
+</ul>
+
+<ul id="Blogs">
+  <li>Inline-block elements:</li>
+<ul>
+<li>It allows other elements to sit to their left and right.</li>
+<li>It has top & bottom margins and padding.</li>
+<li>It has height and width</li>
 
 
-        </td>
+<p>An inline-block element is placed as an inline element (on the same line as adjacent content), but it behaves as a block element.</p>
+</ul>
+</ul>
+<h2>Example:</h2>
+<img src="images/p.png"></img>
+<h2> While using display: inline; the two paragraph flow together as a single paragraph.</h2>
+<img src="images/ex1.png"></img>
+<h2>While using display: inline block; the two paragraphs appear right next to each other.</h2>
+<img src="images/ex2.png"></img>
+</td>
       </tr>
     </table>
+    
   </body>
 </html>

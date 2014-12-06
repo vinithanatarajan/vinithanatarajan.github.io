@@ -30,17 +30,30 @@
                   <li><a href="c1-chefs-kitchen.html">Cultural Blog</a></li>
               </ul>
                 <li>Week 2</li>
+                <ul id="Blogs">
+                 <li><a href="t2-css-design.html">Technical Blog</a></li>
+                </ul>
                 <li>Week 3</li>
+                <ul id="Blogs">
+                 <li><a href="t3-arrays-hashes.html">Technical Blog</a></li>
+                 <li><a href="c3_thinking-style.html">Cultural Blog</a></li>
+                </ul>
                 <li>Week 4</li>
                 <ul id="Blogs">
                   <li><a href="t4-enumerable-methods.html">Technical Blog</a></li>
                   <li><a href="c4-tech-issues.html">Cultural Blog</a></li>
                 </ul>
+                <li>Week 5</li>
+                <ul id="Blogs">
+                 <li><a href="t5-ruby-classes.html">Technical Blog</a></li>
+                 <li><a href="c5-feedback.html">Cultural Blog</a></li>
+                </ul>
               </ul>
             </ul>
         </td>
         <td id="content">
-          <h2>"Programmers often feel joy when they can concentrate on the creative side of programming, so Ruby is designed to make programmers happy" - said Yukihiro Matsumoto (Matz)</h2>
+          <h2>Enumerable Method</h2>
+          <h3>"Programmers often feel joy when they can concentrate on the creative side of programming, so Ruby is designed to make programmers happy" - said Yukihiro Matsumoto (Matz)</h3>
 
 <p>As a beginner it took me a long time to figure out what Enumerable module was and what one might use it for. But later the features provided by the Enumerable module impressed me. Thanks to David A. Black. David teaches Ruby to beginners not only by showing them what enumerable can do, but also making them implement their own version of it which is a very good exercise.</p>
 
@@ -61,17 +74,23 @@
 
 <p>map is simply a function that builds up a new array by taking each element and replacing it with the return value of the block you provide to it</p>
 
-<img src="images/shot1.png"></img>
+<p> Example:</p>
+
+<p> names =%w{Sam Dara Jacques}</p>
+    <p>=> ["Sam", "Dara", "Jacques"]</p>
+    <p> names.map {|name| name.downcase}</p>
+    <p> => ["sam", "dara", "jacques"] </p> 
 
 <p>In the above example we map one array to another, convert each element by some rule. Think of it as a transformation method, that applies the block as a transformation. It always returns a new array with transformation applied.</p>
 
 <p>Let's see another example to convert a hash to an array of arrays using map</p>
 
-<img src="images/shot2.png"></img>
+<p> fruits = {"Apple" => 20, "Strawberry" => 25, " mandarin" => 30}</p>
+<p> =>{"Apple" => 20, "Strawberry" => 25, " mandarin" => 30}</p>
+<p> fruits.map</p>
+<p> => [["Apple", 20], ["Strawberry", 25], ["Mandarin", 30]]</p>
 
 <p>In the above method When the block is omitted, map uses this implied block: {|item| item}, which means when applied on an hash without a block, map returns an array containing a set of two-item arrays, one for each key/value pair in the hash. For each two-item array, item 0 is the key and item 1 is the corresponding value.</p>
-
-<img src="images/shot3.png"></img>
 
 
         </td>

@@ -28,7 +28,8 @@
                 <ul id="Blogs">
                   <li><a href="t1-git-blog.html">Technical Blog</a></li>
                   <li><a href="c1-chefs-kitchen.html">Cultural Blog</a></li>
-              </ul>
+                </ul>
+              
                 <li>Week 2</li>
                 <ul id="Blogs">
                  <li><a href="t2-css-design.html">Technical Blog</a></li>
@@ -52,17 +53,40 @@
             </ul>
         </td>
         <td id="content">
-          <h2>Chefs in the kitchen</h2>
-          <p>Hello Everyone, I am very glad to say that I am a student at EDA. I am also happy to be a member of Pukeko community where I get connected to all the amazing people who have the same interests as me and can help with my future career.</p> 
+          <h2> Arrays and Hashes in Ruby </h2>
+          <p>Arrays: Arrays are ordered, integer-indexed collections of any object. Arrays are used to store collections of data. Each object in an array has an unique key assigned to it. We can access any object in the array using this unique key. The positions in an array starts from " 0 ". The first element is located at " 0 ", the second at 1st position etc.</p>
 
-<p>EDA is embedded with excellent teachers' teaching and supervision practices which systematically supports learning in students. After watching Shereef's fireside chat I realised that I was completely in a consumer mode with a Restaurant mindset. But after going through week 1 learning material, it encouraged me to independently search for information, analyse and apply it in novel ways, as well as to generate new information.</p>
-<p>Now I believe that I am slowly moving towards the creator mode with a kitchen mind set. I am confident that this mindset will last in me for life time.</p>
+<p>Example: Try the following in - irb.</p>
 
-<p>EDA provides with both learning and teaching experience and also provides students with constructive feedback with their learning and skills. EDA programs were exactly what I was looking for. And of course, thanks to EDA, finally I get to meet you.</p>
+<p>TV = Array.new</p>
+<p>TV = %w[Samsung, Panasonic, LG, Sony]</p>
+we have added 4 elements in the array.
+
+<p>puts TV[2]</p>
+<p>LG,</p>
+<p>Add a new element to position 4.</p>
+
+<p>TV[4] = "Sansui"</p>
+
+<p>Hashes: Like arrays, Hashes are also used to store data. Hashes points an object to another object. Consider of assigning a certain "meaning" to a string.Each time we refer that string, it refers its "meaning". Hashes have a default value that is returned when accessing keys that do not exist in the hash. By default, that value is nil.</p>
+
+<p>Example:</p>
+
+<p>TV = Hash.new</p>
+<p>TV = {
+'Samsung' => 'Samsung LED 46", Samsung LED 55", Samsung LED 60" and Samsung LED 65"',</p>
+<p>'Panasonic' => 'Panasonic LED 46", Panasonic LED 55" and Panasonic LED 60"',</p>
+<p>'LG' => 'LG LED 46", LG LED 55", and LG LED 60"'
+}</p>
+<p>Try this now:</p>
+
+<p>TV['Samsung']</p>
+<p>You get => ""Samsung LED 46", Samsung LED 55", Samsung LED 60" and Samsung LED 65"" </p>
 
 
         </td>
       </tr>
     </table>
+    
   </body>
 </html>
