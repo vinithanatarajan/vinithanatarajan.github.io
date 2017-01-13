@@ -1,2 +1,0 @@
-vinithanatarajan.github.io
-==========================
